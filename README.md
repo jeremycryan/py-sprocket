@@ -18,7 +18,7 @@ to arbitrary (picklable) Python objects.
 ``` 
 >>> from sprocket import Packet
 >>> p = Packet(x=3, y=2, id="Player 1")
->>> p.pos
+>>> p.x, p.y
 (3, 2)
 >>> p.name
 'Player 1'
