@@ -1,6 +1,8 @@
 # py-sprocket
 A Python socket abstraction for quick and easy networking prototypes
 
+**Note: do not use this package in any situation where security is a concern. It uses the pickle library under the hood to send Python objects between the client and server, which means a malicious client could execute arbitrary code on your server machine. Use at your own risk.**
+
 ### Overview
 This library is for getting socket communication up and running in a few
 minutes in Python, without having to directly deal with threading, error
